@@ -11,6 +11,29 @@
     background-color: #8c2727; 
 }
 
+.box {
+    display: flex;              /* フレックスボックスにする */
+    justify-content:center;
+}
+
+.box1{
+    /*padding: 40px;*/
+    width:  250px;
+    height: 250px;
+}
+
+.box1:nth-child(1) {
+    background-color:  #2196F3; /* 背景色指定 */
+  }
+
+.box1:nth-child(2) {
+    background-color:  #4CAF50; /* 背景色指定 */
+}
+
+.box1:nth-child(3) {
+    background-color: #3F51B5; /* 背景色指定 */
+}
+
 .left {
     height: 250px;
     width:  150px; 
