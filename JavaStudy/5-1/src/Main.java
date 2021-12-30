@@ -23,11 +23,8 @@ public class Main {
 			array2.add("foo");
 //	      問③ fooが格納されているインデックスを出力してください。
 //		　<以下記述>
-			for (int i = 0; i < array2.size(); i++) {
-	            if(array2.get(i) == "foo") {
-	            	System.out.println("fooのインデックス: " + i);
-	            }
-	        }
+			var index = array2.indexOf("foo");
+			System.out.println("fooのインデックス："+index);
 		}
 
 		{
@@ -61,5 +58,4 @@ public class Main {
 			}
 		}
 	}
-
 }
